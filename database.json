@@ -1,0 +1,9 @@
+{
+   "dev" : {
+    "driver" : "pg",
+    "user" : "postgres",
+    "password" : "muhammadnur7602",
+    "host" : "localhost",
+    "databse" : "apitodo"
+   }
+}
