@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "muhammadnur7602",
+    "database": "apitodo_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "muhammadnur7602",
+    "database": "apitodo_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "muhammadnur7602",
+    "database": "apitodo_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
