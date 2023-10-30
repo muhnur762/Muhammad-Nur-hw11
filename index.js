@@ -1,14 +1,9 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const port = process.env.PORT || 3000;
 
-const route = require('./routes')
+const app = require('./app')
 
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
+  app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
 
-app.use('/todo', route)
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})

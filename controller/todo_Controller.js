@@ -33,7 +33,7 @@ class TodoController {
 
   // Tambah todo
   static add (req, res, next) {
-    console.log(req.body.title)
+    console.log(req.body)
     Todo.create({
       title: req.body.title,
       description: req.body.description
@@ -42,7 +42,7 @@ class TodoController {
         res.status(201).json({ data, message: 'Todo Berhasil Ditambahkan!' })
       })
       .catch(err => {
-        res.status(500).json({ message: '<<< Error', error: err })
+        res.status(501).json({ message: '<<< Error add', error: err })
       })
   }
 

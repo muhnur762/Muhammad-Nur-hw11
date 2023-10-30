@@ -9,7 +9,7 @@
   "test": {
     "username": "postgres",
     "password": "muhammadnur7602",
-    "database": "apitodo_test",
+    "database": "apitodo_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
